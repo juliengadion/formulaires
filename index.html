@@ -20,9 +20,9 @@
 
 
                 <label for="nom">Full name</label>
-                <div>
+            <div>
                 <input type="text" name="nom" id="nom" />
-                </div>
+            </div>
 
 
 
@@ -34,47 +34,46 @@
             </p>
             <p>
                     <label for="email">e-mail</label>
-                    <div>
+                <div>
                     <input type="email" name="email" id="email" />
-                    </div>
+                </div>
             </p>    
 
 
-
-            <p>
-                <div>
-                <div class="subject">
-
-                    <label for="subject">Subject</label><br />
-                    </div>
-                    <select name="subject" id="subject">
-                        <option value="Advertise">Advertise</option>
-                        <option value="none">none</option>
-                
-            </p>
-
-                <form method="post" action="traitement.php">
-
-                    <label for="your message">Your Message</label>
+                        <p>
+                        <form method="post" action="traitement.php">
+                    
+                        <label for="pays">Subject</label><br />
+                        <select name="pays" id="pays">
+                            <option value="advertise">Advertise</option>
+                            <option value="none">None</option>
+                        </p>
 
 
 
-            <p>
-
-                <textarea name="your message" id="your message" rows="10" cols="30"></textarea>
-
-
-
-            </p>
-
-            <input type="submit" value="Submit" />
-
+            <form method="post" action="traitement.php">
+                <p>
+                        <label for="message">Your Message</label> <br />             
+                    <textarea name="message" id="message" rows="10" cols="10"></textarea>
+                           
+                </p>
             </form>
 
+
+                
+            
+            <p>
+            <input type="submit" value="Submit"/>
+            </p>
 
         </fieldset>
 
     </section1>
+
+
+
+
+
 
     <section2>
 
