@@ -21,19 +21,18 @@
 
                 <label for="nom">Full name</label>
             <div>
-                <input type="text" name="nom" id="nom" />
+                <input type="text" name="nom" id="nom" placeholder="First" size="30" maxlength="10"/>
             </div>
 
 
-
                 <label for="prenom"></label>
-                <input type="prenom" name="prenom" id="prenom" />
-
-
+                <input type="prenom" name="prenom" id="prenom" placeholder="Last" size="30" maxlength="10"/>
 
             </p>
+
+
             <p>
-                    <label for="email">e-mail</label>
+                    <label for="email">E-mail</label>
                 <div>
                     <input type="email" name="email" id="email" />
                 </div>
@@ -49,21 +48,19 @@
                             <option value="none">None</option>
                         </p>
 
+                        <p>
+                            <div>
+                            <label for="yourmessage">Your Message</label>
+                            </div>
+                            <textarea name="yourMessage" id="yourmessage" cols="80" rows="10"></textarea>
+                            
+                        </p>
 
-
-            <form method="post" action="traitement.php">
-                <p>
-                        <label for="message">Your Message</label> <br />             
-                    <textarea name="message" id="message" rows="10" cols="10"></textarea>
-                           
-                </p>
-            </form>
-
-
+            <p>
+                <div id="bouton"><input type="submit" value="Submit"/>
                 
             
-            <p>
-            <input type="submit" value="Submit"/>
+            
             </p>
 
         </fieldset>
@@ -71,14 +68,8 @@
     </section1>
 
 
-
-
-
-
-    <section2>
-
         <fieldset>
-
+<section2>
             <h1>
                 Provide your information
             </h1>
